@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <Button android:id="@+id/button2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignBaseline="@+id/button1" android:layout_alignBottom="@+id/button1" android:layout_alignParentRight="true" android:text="@string/main_stop_scan"></Button>
+    <Button android:layout_width="wrap_content" android:id="@+id/button1" android:layout_height="wrap_content" android:text="@string/main_upload_log" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_marginBottom="80dp"></Button>
+    <TextView android:layout_height="wrap_content" android:id="@+id/main_last_time_scan" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_above="@+id/main_location" android:layout_toRightOf="@+id/main_wifi_status" android:text="@string/main_last_time"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/main_connection_status" android:text="@string/main_not_connected" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_above="@+id/main_last_scan" android:layout_alignLeft="@+id/main_last_time_scan" android:layout_marginLeft="16dp"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/main_last_scan" android:text="@string/main_last_scan" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_below="@+id/main_wifi_status" android:layout_alignLeft="@+id/main_wifi_status" android:layout_marginTop="27dp"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/main_location" android:text="@string/main_current_location" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_below="@+id/main_last_scan" android:layout_alignLeft="@+id/main_last_scan" android:layout_marginTop="34dp"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/main_wifi_status" android:text="@string/main_wifi_status" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginLeft="10dp" android:layout_marginTop="15dp"></TextView>
+    
+    
+    
+</RelativeLayout>

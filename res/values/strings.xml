@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WardrivingActivity!</string>
+    <string name="app_name">WarDriving</string>
+    
+    <string name="main">Main</string>
+    <string name="main_wifi_status">Wifi Status: </string>
+    <string name="main_connected">Connected</string>
+    <string name="main_not_connected">Not Connected</string>
+    <string name="main_last_scan">Last Scan: </string>
+    <string name="main_last_time">Unknown</string>
+    <string name="main_upload_log">Upload Log</string>
+    <string name="main_start_scan">Start Scanning</string>
+    <string name="main_stop_scan">Stop Scanning</string>
+    <string name="main_current_location">Current Location: </string>
+    
+    <string name="detail_view_label">Detailed Info</string>
+    <string name="detail_view_macAddr">MAC Address: </string>
+    <string name="detail_view_ssid">Network Name: </string>
+    <string name="detail_view_capabilities">Capabilities: </string>
+    <string name="detail_view_location">Location: </string>
+    <string name="detail_view_frequency">Frequency: </string>
+    <string name="detail_view_signal">Signal: </string>
+    <string name="detail_view_macAddr_value">unknown</string>
+    <string name="detail_view_ssid_value">unknown</string>
+    <string name="detail_view_capabilities_value">unknown</string>
+    <string name="detail_view_location_value">unknown</string>
+    <string name="detail_view_frequency_value">unknown</string>
+    <string name="detail_view_signal_value">unknown</string>
+    
+    <string name="last_scan">Last Scan</string>
+    
+    <string name="settings">Settings</string>
+    
+    <!-- log name and path: -->
+    <string name="logName">macAddressInfo.txt</string>
+    <string name="logPath">/com.kerry.wardriving/</string>
+    
+    <!-- shared preferences -->
+    <string name="macAddrSharedPref">sharedMacAddrList</string>
+    <string name="currentLocSharedPref">currentLocation</string>
+    <string name="currentLatitude">currentLatitude</string>
+    <string name="currentLongitude">currentLongitude</string>
+    
+    <string name="defaultUserId">2029123900</string>
+    
+    <string-array name="countries_array">
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+    </string-array>
+    
+    <color name="listcolor">#FFE87C</color>
+    <color name="black">#000000</color>
+</resources>

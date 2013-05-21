@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditTextPreference
+                android:summary="Set the sleep interval(in seconds)"
+                android:defaultValue="180"
+                android:title="Sleep Interval"
+                android:key="settings_sleepInterval" 
+                android:name="EditText Preference"/>
+        <EditTextPreference
+                android:summary="Set your 10-digit ID"
+                android:title="User ID"
+                android:key="settings_userid" 
+                android:name="EditText Preference" 
+                android:defaultValue="@string/defaultUserId"/>
+</PreferenceScreen>
